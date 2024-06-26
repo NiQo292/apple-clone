@@ -23,10 +23,16 @@ const Highlights = () => {
               Watch the film
               <img src={watchImg} alt="Watch" className="ml-2" />
             </p>
-            <p className="link">
-              Watch the event
+            <button className="link">
+              <a
+                href="https://www.apple.com/apple-events/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Watch the event
+              </a>
               <img src={rightImg} alt="right" className="ml-2" />
-            </p>
+            </button>
           </div>
         </div>
         <VideoCarousel />

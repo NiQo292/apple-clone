@@ -53,7 +53,15 @@ const Hero = () => {
         id="cta"
         className="flex flex-col items-center opacity-0 translate-y-20"
       >
-        <a href="#highlights" className="btn">
+        <a
+          href="#highlights"
+          className="btn"
+          onClick={(e) => {
+            e.preventDefault();
+            const highlightsSection = document.querySelector("#highlights");
+            highlightsSection.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
           Buy
         </a>
         <p className="font-normal text-xl">From $199/Month or $999</p>

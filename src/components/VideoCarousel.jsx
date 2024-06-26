@@ -69,7 +69,7 @@ const VideoCarousel = () => {
                   ? "10vw" // mobile
                   : window.innerWidth < 1200
                   ? "10vw" // tablet
-                  : "4vw", // laptop
+                  : "4vw", // desktop
             });
 
             // set the background color of the progress bar
